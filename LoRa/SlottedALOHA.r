@@ -2,7 +2,9 @@
 packetReadyProb <- 0.0057;
 maxBackoff <- 100;
 simulationTime <- 5000;
-
+#For Randi Function
+install.packages("pracma");
+library(pracma);
 sourceStatus <- matrix(0, 1, sourceNumber);
 
 #% legit source statuses are always non - negative integers and equal to:
