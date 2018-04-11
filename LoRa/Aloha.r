@@ -3,7 +3,9 @@
 timeInterval = 10;
 #Mili Seconds
 numberOfSlots = timeSpan / timeInterval;
-
+#For Randi Function
+install.packages("pracma");
+library(pracma);
 frequencySpan = 125e3;
 #Hertz :125 khz
 
